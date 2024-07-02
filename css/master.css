@@ -1,0 +1,427 @@
+/* ADMIN */
+.contenedorModal{
+    position: relative;
+}
+.modalBox{
+    position:absolute;
+    top: 0;
+    left:12;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgb(124, 69, 153);
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 3;
+}
+
+.seccionError{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    text-align: center;
+    font-size: 1em;;
+    flex-direction: column;
+    color: rgb(110, 5, 5);
+    align-items: center !important;
+    justify-content: center !important;
+}
+.botonError{
+    background-color: rgb(110, 5, 5);
+    color: white;
+    border-radius: 4px;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    min-width: 100px;
+    max-width: 200px;;
+    outline: none;
+    font-weight: bolder;
+}
+.botonError:hover{
+    background-color: white;
+    color: rgb(110, 5, 5);
+    cursor: pointer;
+    border: solid 1px rgb(110, 5, 5);
+}
+
+.red{
+    color: rgb(110, 5, 5);
+}
+
+.errorValidacionForm{
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+.confirmacionNewUser{
+    background-color: rgb(4, 82, 4);
+    /* color: rgb(4, 82, 4); */
+    color: white;
+    border: solid 1px rgb(4, 82, 4);
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#buscador{
+    margin:0 10px;
+}
+
+.bg-grey{
+    background-color: lightgray;
+    padding: 5px;
+}
+/* .labelForm{
+    width: 100px;
+} */
+.campoFormNewUser{
+    width: 100%;
+}
+
+.botonReiniciar{
+    height:20px;
+    color: rgb(53, 52, 52);
+    line-height: 20px;
+}
+.botonReiniciar:hover{
+    color: white;
+}
+.navAdmin{
+    margin: 0 20px;
+}
+.botonNavAdmin{
+    background-color: rgb(124, 69, 153) !important;
+    border: solid 1px white;
+    color: white;
+    text-transform: uppercase;
+}
+.botonNavAdmin:hover{
+    background-color: white !important;
+    color: rgb(124, 69, 153) !important;
+    border: solid 1px rgb(124, 69, 153) !important;
+}
+.purple{
+    color: rgb(124, 69, 153) !important;
+}
+.button{
+    height: 35px;
+    line-height: 32px;;
+    border-radius: 5px;
+    max-width: 180px;
+    text-align: center;
+    padding: 0 10px;
+    text-transform: uppercase;
+    background-color: lightgray;
+    border: solid 1px grey;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: grey;
+    color:white
+}
+/* .editButton{
+    text-align: center;
+    min-width: 25px;
+    background-color: lightgray;
+    border: solid 1px grey;
+    height: 25px;
+    border-radius: 5px;
+}
+.editButton:hover{
+    cursor: pointer;
+    background-color: grey;
+    color:white
+} */
+
+.contenedorSeccion{
+    border: solid 1px rgb(124, 69, 153);
+    border-radius: 10px;
+    padding:15px;
+    margin-top: 30px;
+}
+
+
+
+
+
+.header{
+    height: 20vh;
+}
+img{
+    width:80%;
+    max-width: 300px;
+    margin:auto;
+}
+.logoHeaderResponsive{
+    height:20vh;
+}
+
+.alignRight{
+    text-align: right;
+    padding-right: 30px;;
+}
+
+.logoHeader{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+}
+.anchoTotal{
+    width:100%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    width: 100px !important;
+}
+
+
+
+
+/* GENERALES */
+/* contenedor de aside y main */
+.contenedorSecundario{
+    /* min-height: 84vh; */
+    margin:0;
+    padding: 0px !important;
+}
+
+
+
+/* SHARED */
+.hidden{
+    display: none;
+}
+p{
+    margin:0;
+}
+.rowBoton{
+    width:100% !important;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.botonSubmit{
+    height:50px;
+    background-color: rgb(124, 69, 153);
+    border-radius: 10px;
+    color:white;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+}
+.botonSubmit:hover{
+    color: yellow;  
+}
+
+
+
+
+
+/*MAIN */
+.navHome{
+    height: 30px;
+    background-color: rgb(124, 69, 153);;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 100% !important;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+       margin: auto;
+       border-bottom: solid 1px grey;;
+}
+main{
+    padding:0 !important;
+}
+
+.contenedorSeccion{
+    width:100%;
+    margin:auto;
+}
+.paddingCero{
+    padding:0;
+}
+
+.mensajeConfirmacion{
+    height:80vh;
+    /* width:80%; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:rgb(124, 69, 153);
+    /* font-size: 1rem; */
+}
+.bloque{
+    background-color: lightgray;
+    margin: 20px;
+    border-radius:10px;
+    border: solid 1px grey;
+}
+
+.nameButtonMenu{
+    margin-right: 5px;;
+}
+
+/*SECCIONES */
+.logoInicio{
+    background-image: url("../img/si.jpg");
+    height:100%;
+    display: flex;
+    align-items: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+.section{
+    width:100%;
+    height:100%;
+    min-height:80vh;;
+}
+.borderBottom{
+    margin-bottom: 10px;
+}
+
+
+/* CONFIRMACION */
+.rowTitulo{
+    background-color: grey;
+    color: white;
+    border-radius: 10px;;
+    width:100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin:0 auto;
+}
+.anchoTotal{
+    width:100%;
+}
+.rowProducto{
+    margin:5px 0;
+    border-bottom:  1px grey;
+}
+
+
+
+
+/* CONFIRMACION PEDIDO */
+.confirmacionPedido{
+    min-height: 200px;
+    border: grey solid 1px;
+    border-radius: 10px;
+    position: absolute;
+    width: 80%;
+    z-index: 2;
+    background-color: rgba(255, 255, 255);
+}
+.rowConfirmarPedido{
+    text-align: center;
+    color: rgb(124, 69, 153);
+    width:100%;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.productoSeleccionado{
+    background-color: lightgray;
+}
+
+.accordion-header{
+    background-color: rgb(124, 69, 153);
+    border-radius: 5px;
+}
+.accordion-button:not(.collapsed) {
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(124, 69, 153);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: grey;
+    outline: 0;
+    box-shadow: none !important;
+}
+.accordion-button{
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(124, 69, 153);
+}
+.accordion-body{
+    background-color: lightgray
+}
+.mensajeConfirmacion{
+    height: 100%;
+    color: rgb(124, 69, 153);
+    width:100% !important;
+    margin-left:25%;
+    text-align: centerf;
+}
+
+
+.mainHidden{
+    display: block;
+}
+
+
+
+/* CLASES CON JS */
+.botonRemarcado{
+    background-color: grey;
+    outline: none !important;
+    border: none;
+    color: white;
+}
+.headerResponsive{
+    display: none;
+    z-index: 4;
+    height: 80vh;
+}
+
+
+.iconoBurguer{
+    padding:5px;
+    border-radius: 4px;;
+    border: solid 1px grey;
+}
+
+@media (max-width: 992px) {
+    .colBuscador{
+        margin:5px 0;
+        padding: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+@media (max-width: 767px) {
+   .logoHeader{
+       display: none;
+   }
+   .headerResponsive{
+       display: block;
+   }
+    .mainHidden{
+        display: none;
+    }
+    .section{
+        width:100%;
+        height:100%;
+        min-height:50vh;;
+    }
+    .ocultarResponsive{
+       display: none;
+    }
+}
